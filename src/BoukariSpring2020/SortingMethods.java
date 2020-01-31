@@ -1,4 +1,4 @@
 package BoukariSpring2020;
 
-public class Notes {
+public class SortingMethods {
 }
