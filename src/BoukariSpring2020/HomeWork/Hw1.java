@@ -1,6 +1,4 @@
 package BoukariSpring2020.HomeWork;
-
-import javax.swing.text.StyledEditorKit;
 import java.util.*;
 public class Hw1 {
     // Search through a matrix
@@ -19,6 +17,7 @@ public class Hw1 {
 
     }
 
+    //Create the Matrix
     public static int[][] create2DMatrix(){
 
         Scanner in = new Scanner(System.in);
@@ -37,6 +36,7 @@ public class Hw1 {
         return out;
     }
 
+    //Create a Symmetric Matrix
     public static int[][] MakeSymmetricMatrix() {
         Scanner in = new Scanner(System.in);
         int col = in.nextInt();
@@ -52,6 +52,8 @@ public class Hw1 {
         return out;
     }
 
+
+    //Search a Matrix
     public static void SearchMatrix(int target, int[][] data){
         int rowPos = -1;
         int colPos = -1;
@@ -76,6 +78,8 @@ public class Hw1 {
 
     }
 
+
+    //Search through a Symmetric Matrix
     public static void SearchSymmetricMatrix(int target, int[][] data){
         int rowPos = -1;
         int colPos = -1;
@@ -99,6 +103,8 @@ public class Hw1 {
     }
 
 
+
+    //Add two Matrices that are the same size
     public static int[][] AddMatrix() {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter in number of Columns: ");
