@@ -3,7 +3,8 @@ package BoukariSpring2020.HomeWork;
 public class Hw2 {
 
     public static void main(String[] args) {
-
+        System.out.print(longestWord("The ceiling is going to collapse"));
+/*
         int[] data = new int[] {0,1,2,3,4,5,6};
         System.out.println(Median(data));
         System.out.println(Mean(data));
@@ -11,10 +12,9 @@ public class Hw2 {
         System.out.println(Median(data2));
         System.out.println(Mean(data2));
 
-
-
+ */
     }
-
+//Problem 2
     public static double Median(int[] data) {
         int size = data.length;
         double median = -1;
@@ -42,4 +42,10 @@ public class Hw2 {
         return Mean;
     }
 
+//Problem 1
+    public static String longestWord(String sentence) {
+        return null;
+    }
+
+    //Problem 4
 }
