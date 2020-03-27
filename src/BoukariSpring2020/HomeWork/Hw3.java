@@ -20,6 +20,14 @@ public class Hw3 {
         System.out.println(Palindrome("refer"));
 
         */
+        System.out.println(Palindrom2("you can cage a swallow, cant you, but you cant swallow a cage, can you?"));
+        System.out.println(Palindrom2("A nut for a jar of tuna."));
+        System.out.println(Palindrom2("Are we not pure? “No, sir!” Panama’s moody Noriega brags. “It is garbage!” Irony dooms a man—a prisoner up to new era."));
+        System.out.println(Palindrom2("King, are you glad you are king?"));
+        System.out.println(Palindrom2("Taco cat"));
+        System.out.println(Palindrom2("Was it a car or a cat I saw?"));
+        System.out.println(Palindrom2("Data Structures and Algorithms."));
+
 
     }
 
@@ -49,11 +57,25 @@ public class Hw3 {
 
     private static  boolean Palindrom2(String sentence){
         boolean palindrome = true;
+
+        String[] words = sentence.toLowerCase().split("\\W+");
         Stack<String> tar = new Stack<String>();
         Stack<String> test = new Stack<String>();
-        
 
+        for( int i = 0; i < words.length; i ++) {
+            tar.push(words[i]);
+        }
+        for(int i = words.length-1; i >= 0; i--) {
+            test.push(words[i]);
+        }
 
+        while (!tar.isEmpty() && !test.isEmpty()){
+            String a = tar.pop();
+            String b = test.pop();
+            if ( !a.equals(b)){
+                palindrome = false;
+            }
+        }
 
 
         return palindrome;
