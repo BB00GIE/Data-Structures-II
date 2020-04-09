@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ce32fc14-2871-430a-be7f-ff9fa0420318" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BoukariSpring2020/HomeWork/Hw4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoukariSpring2020/HomeWork/Hw4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586369814996</updated>
       <workItem from="1586369823494" duration="1050000" />
+      <workItem from="1586462634647" duration="1118000" />
     </task>
     <servers />
   </component>
